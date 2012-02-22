@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-statmod 
-Requires:         R-fBasics 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-statmod
-BuildRequires:    R-fBasics 
+Requires:         R-statmod R-fBasics
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-statmod R-fBasics
 
 %description
 Maximum likelihood computations for Tweedie families.
