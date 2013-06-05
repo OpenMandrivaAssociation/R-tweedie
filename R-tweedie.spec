@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          2.1.1
+Version:          2.1.7
 Release:          1
 Summary:          Tweedie exponential family models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/tweedie_2.1.7.tar.gz
 Requires:         R-statmod R-fBasics
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-statmod R-fBasics
@@ -41,3 +41,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
