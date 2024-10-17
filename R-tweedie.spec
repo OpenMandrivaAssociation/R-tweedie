@@ -7,7 +7,7 @@ Release:          1
 Summary:          Tweedie exponential family models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/tweedie_2.1.7.tar.gz
 Requires:         R-statmod 
 Requires:         R-fBasics 
